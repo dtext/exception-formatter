@@ -1,0 +1,35 @@
+.wrapper {
+    border-radius: 24px;
+    padding: 24px;
+    background: hsl(195, 12%, 13%);
+    height: 900px;
+    position: relative;
+}
+
+.formatter-hint {
+    transition: .5s ease-in-out;
+    user-select: none;
+    user-focus: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formatter-hint--inactive {
+    opacity: 0;
+    transition: .5s ease-in-out;
+    transform: scale(2);
+}
+
+textarea {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    resize: none;
+    background: transparent;
+    caret-color: #d6ecef;
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+}

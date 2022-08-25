@@ -10,7 +10,7 @@ export function ExceptionFormatter() {
   }
 
   return <div className="wrapper">
-    <div className={`formatter-hint ${inactive}`} >
+    <div className={`formatter-hint ${inactive}`} data-testid="hint">
       <h2>Paste escaped exception here...</h2>
     </div>
     <textarea

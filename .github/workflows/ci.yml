@@ -31,3 +31,7 @@ jobs:
         name: 🔨 Build
       - run: npm test
         name: ✅ Test
+      - name: 🚀 Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
